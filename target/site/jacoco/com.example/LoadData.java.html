@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="es"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>LoadData.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">demo</a> &gt; <a href="index.source.html" class="el_package">com.example</a> &gt; <span class="el_source">LoadData.java</span></div><h1>LoadData.java</h1><pre class="source lang-java linenums">package com.example;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+import com.utils.CsvDataProvider;
+
+
+public class LoadData extends BasePage
+{
+    @FindBy(id=&quot;first-name&quot;)
+    WebElement firstNameField;
+    @FindBy(id=&quot;last-name&quot;)
+    WebElement lastNameField;
+    @FindBy(id=&quot;postal-code&quot;)
+    WebElement postalCodeField;
+    @FindBy(id=&quot;continue&quot;)
+    WebElement buttonContinue;
+    @FindBy(id=&quot;finish&quot;)
+    WebElement buttonFinish;
+
+    
+    public LoadData(WebDriver driver)
+    {
+<span class="fc" id="L26">        super(driver);</span>
+<span class="fc" id="L27">    }</span>
+
+    public void loadData()
+    {
+<span class="fc" id="L31">        Object[][] data = CsvDataProvider.csvDataProvider();</span>
+<span class="fc" id="L32">        typeOnField(firstNameField, ((String)(data[0][0])));</span>
+<span class="fc" id="L33">        typeOnField(lastNameField, ((String)(data[0][1])));</span>
+<span class="fc" id="L34">        typeOnField(postalCodeField, ((String)(data[0][2])));</span>
+<span class="fc" id="L35">        clickOnElement(buttonContinue);</span>
+<span class="fc" id="L36">        clickOnElement(buttonFinish);</span>
+<span class="fc" id="L37">    }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.11.202310140853</span></div></body></html>

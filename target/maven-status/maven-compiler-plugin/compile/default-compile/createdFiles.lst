@@ -1,0 +1,9 @@
+com\example\LoginPage.class
+com\example\LoadData.class
+com\example\SelectProducts.class
+com\example\WebDriverFactory.class
+com\utils\ConfigReader.class
+com\example\App.class
+com\utils\ReadCsv.class
+com\example\BasePage.class
+com\utils\CsvDataProvider.class
