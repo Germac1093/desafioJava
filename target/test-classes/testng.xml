@@ -2,7 +2,7 @@
 <suite name="Suite">
   <test name="testApp">
     <classes>
-      <class name="com.example.SauceTest"/>
+      <class name="com.saucetest.SauceTest"/>
     </classes>
   </test>
 </suite>

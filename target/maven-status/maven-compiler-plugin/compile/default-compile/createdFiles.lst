@@ -1,9 +1,8 @@
-com\example\LoginPage.class
-com\example\LoadData.class
-com\example\SelectProducts.class
-com\example\WebDriverFactory.class
+com\saucetest\LoadData.class
+com\saucetest\WebDriverFactory.class
 com\utils\ConfigReader.class
-com\example\App.class
+com\saucetest\BasePage.class
+com\saucetest\LoginPage.class
 com\utils\ReadCsv.class
-com\example\BasePage.class
+com\saucetest\SelectProducts.class
 com\utils\CsvDataProvider.class

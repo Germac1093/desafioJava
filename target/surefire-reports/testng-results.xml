@@ -2,24 +2,28 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-30T17:46:50 VET" name="Suite" finished-at="2024-06-30T17:47:04 VET" duration-ms="14118">
+  <suite started-at="2024-07-01T19:57:21 VET" name="Suite" finished-at="2024-07-01T19:57:43 VET" duration-ms="22092">
     <groups>
     </groups>
-    <test started-at="2024-06-30T17:46:50 VET" name="testApp" finished-at="2024-06-30T17:47:04 VET" duration-ms="14118">
-      <class name="com.example.SauceTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.example.SauceTest@7f69d591]" started-at="2024-06-30T17:46:50 VET" name="setUp" finished-at="2024-06-30T17:46:56 VET" duration-ms="5320" status="PASS">
+    <test started-at="2024-07-01T19:57:21 VET" name="testApp" finished-at="2024-07-01T19:57:43 VET" duration-ms="22092">
+      <class name="com.saucetest.SauceTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.saucetest.SauceTest@332a7fce]" started-at="2024-07-01T19:57:21 VET" name="setUp" finished-at="2024-07-01T19:57:26 VET" duration-ms="5358" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testApp()[pri:0, instance:com.example.SauceTest@7f69d591]" started-at="2024-06-30T17:46:56 VET" name="testApp" finished-at="2024-06-30T17:47:04 VET" duration-ms="8168" status="PASS">
+        <test-method is-config="true" signature="initializePages()[pri:0, instance:com.saucetest.SauceTest@332a7fce]" started-at="2024-07-01T19:57:26 VET" name="initializePages" finished-at="2024-07-01T19:57:26 VET" duration-ms="244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePages -->
+        <test-method signature="testApp()[pri:0, instance:com.saucetest.SauceTest@332a7fce]" started-at="2024-07-01T19:57:26 VET" name="testApp" finished-at="2024-07-01T19:57:42 VET" duration-ms="15801" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testApp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.example.SauceTest@7f69d591]" started-at="2024-06-30T17:47:04 VET" name="tearDown" finished-at="2024-06-30T17:47:04 VET" duration-ms="512" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucetest.SauceTest@332a7fce]" started-at="2024-07-01T19:57:42 VET" name="tearDown" finished-at="2024-07-01T19:57:43 VET" duration-ms="493" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.example.SauceTest -->
+      </class> <!-- com.saucetest.SauceTest -->
     </test> <!-- testApp -->
   </suite> <!-- Suite -->
 </testng-results>

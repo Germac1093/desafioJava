@@ -8,7 +8,7 @@ public class CsvDataProvider
     //@DataProvider(name = "csvDataProvider")
     public static Object[][] csvDataProvider()
     {
-        List<String[]> records = ReadCsv.readCSV("C:\\Users\\Gerardo\\Desktop\\demo\\src\\test\\resources\\datosComprador.csv");
+        List<String[]> records = ReadCsv.readCSV("src/test/resources/datosComprador.csv");
 
         Object[][] data = new Object[records.size()][records.get(0).length];
         for(int i=0; i<records.size(); i++)

@@ -1,1 +1,2 @@
-com\example\SauceTest.class
+com\saucetest\SauceTest.class
+com\saucetest\BaseTest.class
