@@ -1,8 +1,8 @@
-C:\Users\Gerardo\Desktop\sauceproject\src\main\java\com\saucetest\LoginPage.java
-C:\Users\Gerardo\Desktop\sauceproject\src\main\java\com\saucetest\SelectProducts.java
-C:\Users\Gerardo\Desktop\sauceproject\src\main\java\com\utils\CsvDataProvider.java
-C:\Users\Gerardo\Desktop\sauceproject\src\main\java\com\saucetest\BasePage.java
-C:\Users\Gerardo\Desktop\sauceproject\src\main\java\com\saucetest\LoadData.java
-C:\Users\Gerardo\Desktop\sauceproject\src\main\java\com\saucetest\WebDriverFactory.java
-C:\Users\Gerardo\Desktop\sauceproject\src\main\java\com\utils\ConfigReader.java
-C:\Users\Gerardo\Desktop\sauceproject\src\main\java\com\utils\ReadCsv.java
+C:\Users\Gerardo\Documents\Docker-Jenkins\Sauce-Labs\desafioJava\src\main\java\com\saucetest\BasePage.java
+C:\Users\Gerardo\Documents\Docker-Jenkins\Sauce-Labs\desafioJava\src\main\java\com\saucetest\LoadData.java
+C:\Users\Gerardo\Documents\Docker-Jenkins\Sauce-Labs\desafioJava\src\main\java\com\saucetest\LoginPage.java
+C:\Users\Gerardo\Documents\Docker-Jenkins\Sauce-Labs\desafioJava\src\main\java\com\saucetest\SelectProducts.java
+C:\Users\Gerardo\Documents\Docker-Jenkins\Sauce-Labs\desafioJava\src\main\java\com\saucetest\WebDriverFactory.java
+C:\Users\Gerardo\Documents\Docker-Jenkins\Sauce-Labs\desafioJava\src\main\java\com\utils\ConfigReader.java
+C:\Users\Gerardo\Documents\Docker-Jenkins\Sauce-Labs\desafioJava\src\main\java\com\utils\CsvDataProvider.java
+C:\Users\Gerardo\Documents\Docker-Jenkins\Sauce-Labs\desafioJava\src\main\java\com\utils\ReadCsv.java
