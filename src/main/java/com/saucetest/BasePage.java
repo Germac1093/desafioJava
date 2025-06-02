@@ -27,7 +27,7 @@ public class BasePage
     //Esperar hasta que el elemento sea visible
     protected void waitVisibilityElement(WebElement element)
     {
-        wait.until(ExpectedConditions.elementToBeClickable(element));
+        wait.until(ExpectedConditions.elementToBeVisible(element));
     }
 
     //Hacer click en un elemento clickeable
